@@ -5,7 +5,7 @@
 }
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 374px){
 #grid_container{
     height: 20vh;
     display: grid;
@@ -94,7 +94,7 @@ h1{
 }  
 
 
-@media screen and (min-width: 481px){
+@media screen and (min-width: 376px){
 
     #grid_container{
         
