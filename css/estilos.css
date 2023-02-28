@@ -4,13 +4,14 @@
     border: 0;
 }
 
+/* ---------movile----------------------------- */
 
 @media screen and (max-width: 480px){
 #grid_container{
     height: 20vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: 
+    grid-template-areas:
     "header"
     "main"
     "footer";
@@ -33,7 +34,7 @@ footer{
 body {
     min-height: 100vh;
   }
-  
+
 
 h1{
     font-size: 20px;
@@ -46,7 +47,7 @@ h1{
    .logo{
     display: none;
    }
-   
+
    ul{
     display: none;
    }
@@ -82,11 +83,11 @@ h1{
     font-family: roboto;
    }
 
-   
+
    .productos{
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;       
+    margin-top: 10px;
 }
 
 .modelos{
@@ -105,38 +106,38 @@ h1{
     font-family: roboto;
  }
 
-}  
+}
 
 
 @media screen and (min-width: 481px){
 
     #grid_container{
-        
- 
+
+
         height: 100vh;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
-        grid-template-areas: 
+        grid-template-areas:
         "header"
         "main"
         "footer";
-       
-       
-        
-       
+
+
+
+
        }
-       
+
        header{
            grid-area: header;
-        
+
        }
-       
+
        main{
            grid-area: main;
            padding-top: 20px;
            font-family: roboto;
-       
+
        }
 
        .banner{
@@ -149,9 +150,9 @@ h1{
         font-size: 25px;
         font-family: roboto;
         color: #BBBB2A;
-        
+
     }
-    
+
     .section{
         width: 1000px;
         height: 800px;
@@ -163,7 +164,7 @@ h1{
         font-size: 20px;
         margin-left: 130px;
     }
-    
+
     .section1{
         margin-top: 80px;
        margin-right: 10px;
@@ -171,94 +172,94 @@ h1{
        border: 4px solid white;
        margin-top: 100px;
     }
-    
+
     .section2{
-        
+
         font-size: 31px;
     }
-    
-    
+
+
     .h1{
         display: flex;
         background-color: #DEBDF0;
         font-size: 50px;
         font-family: roboto;
-       
-        
+
+
     }
-    
+
     ul{
         display: flex;
         justify-content: space-around;
         font-size: 35px;
         margin-top: 20px;
         height: 100%;
-        font-family: roboto; 
+        font-family: roboto;
     }
-    
+
     .title1{
         padding-left: 100px;
         padding-top: 70px;
         font-family: roboto;
         font-size: 100px;
     }
-    
+
     .title2{
         font-size: 30px;
         text-shadow: 2px 2px #DEBDF0;
     }
-    
+
     li{
         list-style: none;
     }
-    
+
     a{
         text-decoration: none;
         color: black;
     }
-    
+
     main{
         margin: 0;
     }
-    
+
     footer{
         grid-area: footer;
         background-color: #DEBDF0;
- 
-       
+
+
     }
-    
-    
+
+
     .footer1{
         display: flex;
         justify-content: space-around;
         background-color: #DEBDF0;
         padding-bottom: 20px;
-        
-        
-        
+
+
+
     }
-    
+
     hr{
         border: 1px solid black;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    
+
     .productos{
         display: flex;
         justify-content: space-around;
-        margin-top: 10px;       
+        margin-top: 10px;
     }
-    
+
     .modelos{
         display: flex;
         justify-content:space-around;
         font-size: 12px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         margin-top: 10px;
-    
+
     }
-    
+
 }
 
