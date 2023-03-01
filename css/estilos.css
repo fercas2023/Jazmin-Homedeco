@@ -72,8 +72,9 @@ h1{
     height: 150px;
     justify-content: center;
     margin-top: 10px;
+    border-radius: 10px;
     display: block;
-    margin: 0 auto;
+    
    }
 
    .envios{
