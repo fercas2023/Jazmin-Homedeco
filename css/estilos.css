@@ -40,9 +40,10 @@ h1{
     font-size: 20px;
     background-color: #DEBDF0;
     font-family: roboto;
-    justify-content: center;
-   text-align: center;
+    text-align: center;
+   
    }
+
 
    .logo{
     display: none;
@@ -148,6 +149,7 @@ h1{
 
        header{
            grid-area: header;
+          
 
        }
 
@@ -166,6 +168,11 @@ h1{
 
      .btn-group{
         display: none;
+     }
+
+     .container{
+        display: flex;
+        background-color: #DEBDF0;
      }
 
        .envios{
@@ -207,8 +214,15 @@ h1{
         background-color: #DEBDF0;
         font-size: 50px;
         font-family: roboto;
+        align-items: center;
+       
+        
 
+    }
 
+    .title1{
+       
+     
     }
 
     ul{
@@ -221,10 +235,10 @@ h1{
     }
 
     .title1{
-        padding-left: 100px;
-        padding-top: 70px;
+        display: flex;
         font-family: roboto;
         font-size: 100px;
+        
     }
 
     .title2{
