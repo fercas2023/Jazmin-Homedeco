@@ -163,7 +163,8 @@ h1{
 
        .banner{
         justify-content: center;
-        margin-left: 8px;
+        
+       
        }
 
      .btn-group{
@@ -220,11 +221,7 @@ h1{
 
     }
 
-    .title1{
-       
-     
-    }
-
+ 
     ul{
         display: flex;
         justify-content: space-around;
