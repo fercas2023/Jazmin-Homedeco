@@ -139,11 +139,17 @@ h1{
 }
 
 .productos{
-    display: none;
+   display: none; 
 }
 
 .modelos{
     display: none;
+}
+
+.img1{
+    display: block;
+  margin-bottom: 10px;
+
 }
 
 
