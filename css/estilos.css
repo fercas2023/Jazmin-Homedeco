@@ -157,6 +157,10 @@ h1{
        }
 
 
+       .hover{
+        background-color: #DEBDF0;
+       }
+
        .banner{
         justify-content: center;
         margin-left: 15px;
