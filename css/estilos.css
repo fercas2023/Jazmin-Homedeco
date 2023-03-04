@@ -157,10 +157,7 @@ h1{
        }
 
 
-       .hover{
-        background-color: #DEBDF0;
-       }
-
+      
        .banner{
         justify-content: center;
         margin-left: 15px;
@@ -236,7 +233,14 @@ h1{
         display: flex;
         font-family: roboto;
         font-size: 100px;
+        cursor: pointer;
         
+    }
+
+    .title1:hover{
+        background-color: white;
+        border: 5px solid black;
+        border-radius: 20px;
     }
 
     .title2{
